@@ -23,7 +23,7 @@ import statsmodels.api as sm
 # Load and Sort Data
 #==============================================================
 
-df = pd.read_excel("/mnt/data/airline_ticket_dataset.xlsx")
+df = pd.read_excel("C:/Users/Soham Dhar/IdeaProjects/untitled/the project/airline_cleaned.xlsx")
 df = df.sort_values(["Year", "quarter"])
 
 #==============================================================
@@ -314,4 +314,3 @@ plt.plot(transfer_grid, nonstudent_effects, label="Other")
 plt.legend()
 plt.title("Merger Sensitivity: Student vs Non-Student")
 plt.show()
-
